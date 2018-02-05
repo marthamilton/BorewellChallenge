@@ -6,7 +6,7 @@ import java.math.*;
 public class RoomRunner {
     private BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static double valueCheck;
-    //method checks that the input dimensions are numbers only and returns 0 if not a number
+    //method checks that the input dimensions are numbers only and returns null if not a number
     private static java.lang.Double str2Double(String string) {
         try {
             valueCheck = Double.parseDouble(string);
